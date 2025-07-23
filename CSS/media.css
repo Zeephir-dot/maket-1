@@ -1,0 +1,142 @@
+/* адаптив до 992px (планшеты) */
+@media (max-width: 991.98px) {
+  .fall .conatiner {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    text-align: center;
+  }
+  .fall .fall-right {
+    margin-top: 30px;
+  }
+  .fall .conatiner h1 {
+    font-size: 36px;
+  }
+  .fall .conatiner p {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .fall-left__a {
+    margin: 20px auto 0;
+  }
+
+  .people-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .people-text {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .culture-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px;
+  }
+  .culture-text {
+    margin-top: 20px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .power-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .power-text {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .unique {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .guide-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guide__box {
+    margin-top: 20px;
+  }
+
+  .keep-input {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px;
+  }
+  .keep__input {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* адаптив до 768px (смартфоны) */
+@media (max-width: 767.98px) {
+  header nav {
+    padding: 0 15px;
+  }
+
+  .main-container__h1 {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+  .main-container__h3 {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .sell__h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .sell__box-h3 {
+    font-size: 16px;
+  }
+  .sell__box-p {
+    font-size: 14px;
+  }
+  .sell__box-a {
+    font-size: 14px;
+  }
+
+  .people__h1,
+  .culture__h1,
+  .power__h1,
+  .features__h1,
+  .unique__h1,
+  .keep__h1 {
+    font-size: 24px;
+  }
+  .people__p,
+  .culture__p,
+  .power__p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .features__box-h3 {
+    font-size: 18px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+  .footer-left,
+  .footer-right,
+  .footer-right-2 {
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer-center {
+    position: static;
+    margin-top: 20px;
+  }
+}
